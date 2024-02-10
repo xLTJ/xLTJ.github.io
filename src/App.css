@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+
+body {
+  background-color: #282c34;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.projects {
+  background-color: #1b1e23;
+  border-radius: 1rem;
+
+  padding: 2rem;
+  margin: auto;
+  width: 50%;
+
+  display: flex;
+}
+
+
+.project {
+  width: 50%;
+  display: flex;
+}
+
+.project a {
+  width: 100%;
+
+  color: white;
+  font-size: 2rem;
+  background-color: royalblue;
+  padding: 1rem;
+  border-radius: 8px;
+
+  text-decoration: none;
+}
+
+.project img {
+  width: 100%;
+}
+
+.project h3 {
+  margin: 0;
+}
